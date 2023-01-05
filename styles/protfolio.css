@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header-class {
+    background: #FFF8F3;
+    background-image: url('/images/header_bg.png'), url('/images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+/* nav and header title */
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+    margin-top: 50px;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.btn-pri {
+    width: 100px;
+    height: 45px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    border: 0;
+}
+
+.btn-pri2 {
+    height: 45px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    border: 0;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+}
+
+.banner-t1 {
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.banner-t2 {
+    font-weight: 700;
+    font-size: 85px;
+    width: 498px;
+    height: 116px;
+}
+
+.paragrap-des {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+/* ...Main Section...*/
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about {
+
+    background: #FFF8F3;
+    border-radius: 10px;
+    margin-top: 130px;
+    padding: 130px 150px;
+
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+
+.section-descri {
+    color: #757575;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 18px;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+}
+.info-title{
+    color: #757575;
+    font-size: 20px;
+    text-align: center;
+}
+.info-des{
+    font-size: 20px;
+    font-weight: 700px;
+}
