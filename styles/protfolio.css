@@ -117,50 +117,115 @@ main {
     text-align: center;
     font-size: 18px;
 }
-.about-container{
+
+.about-container {
     display: flex;
     justify-content: space-around;
 }
-.info-title{
+
+.info-title {
     color: #757575;
     font-size: 20px;
     text-align: center;
 }
-.info-des{
+
+.info-des {
     font-size: 20px;
     font-weight: 700px;
 }
+
 /* ...What i.... */
 .What-I {
     margin-top: 130px;
 }
 
-.skill-container{
+.skill-container {
     display: flex;
     gap: 24px;
 }
+
 .skill {
     background: #FFFFFF;
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
     padding: 30px;
-    
+
 }
-.skill-title{
+
+.skill-title {
     font-weight: 700;
     font-size: 20px;
     color: #181818;
     margin-top: 30px;
     margin-bottom: 20px;
 }
-.skill-des{
+
+.skill-des {
     font-weight: 400;
     font-size: 16px;
     color: #757575;
 }
-#extra-descr{
+
+#extra-descr {
     margin-right: 150px;
-    margin-left:  150px;
+    margin-left: 150px;
     margin-bottom: 30px;
 }
 
+.resume-contant {
+    display: flex;
+    gap: 26px;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume-title{
+    color: #474747;
+}
+
+.resume .title {
+    color: #474747;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.resume .sub {
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.resume .description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+.res-button{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+.contact .section-title{
+    text-align: left;
+}
+.contact input[type="text"],input[type="email"],textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+input{
+    height: 64px;
+}
+.contact a{
+    text-decoration: none;
+}
